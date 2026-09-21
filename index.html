@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#fff5cd" />
+    <meta name="description" content="Un detalle lleno de flores para mi amiguita Jheslyn." />
+    <title>Para mi amiguita Jheslyn</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=DM+Sans:wght@300;400;500;600&family=Italiana&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css?v=1" />
+  </head>
+  <body class="locked">
+    <div class="paper-noise" aria-hidden="true"></div>
+    <div class="floating-doodles" aria-hidden="true"><i>✦</i><i>♡</i><i>✿</i><i>✦</i><i>♡</i></div>
+
+    <header>
+      <a class="brand" href="#inicio"><span>✿</span> Para Jheslyn</a>
+      <span class="header-copy">De César, con mucho aprecio</span>
+    </header>
+
+    <main id="inicio">
+      <section class="hero">
+        <div class="hero-sun" aria-hidden="true"></div>
+        <div class="butterflies" aria-hidden="true"><i></i><i></i><i></i></div>
+        <div class="hero-copy">
+          <p class="kicker">Para mi amiguita cercana</p>
+          <h1>Qué bonito<br /><em>coincidir contigo</em></h1>
+          <p class="lead">
+            Hay amistades que llegan sin hacer ruido<br />
+            y terminan ocupando un lugar muy bonito.
+          </p>
+          <button class="main-button" id="bloomButton" type="button"><span>Haz florecer este recuerdo</span><i>✦</i></button>
+        </div>
+        <div class="garden" id="garden" aria-hidden="true"></div>
+        <p class="flower-tip"><i>↘</i> puedes tocar las flores</p>
+      </section>
+
+      <section class="letter-section">
+        <div class="letter-shadow" aria-hidden="true"></div>
+        <article class="letter reveal">
+          <span class="tape" aria-hidden="true"></span>
+          <p class="kicker">Una nota para ti</p>
+          <h2>Jheslyn,</h2>
+          <p>
+            quería dejarte este pequeño detalle para recordarte que valoro mucho
+            nuestra amistad, la confianza y todos esos momentos que hacen que hablar
+            contigo se sienta tan natural.
+          </p>
+          <p>
+            Gracias por ser una amiguita tan linda y por estar presente a tu manera.
+            Te aprecio un montón.
+          </p>
+          <strong>— César</strong>
+          <span class="letter-flower" aria-hidden="true">✿</span>
+        </article>
+      </section>
+
+      <section class="memories-section" aria-labelledby="memoriesTitle">
+        <div class="section-title reveal">
+          <p class="kicker">Pequeñas grandes cosas</p>
+          <h2 id="memoriesTitle">Lo que hace bonita<br />nuestra amistad</h2>
+        </div>
+        <div class="memory-grid">
+          <article class="memory-card reveal">
+            <span class="card-pin"></span><small>01 · Confianza</small>
+            <h3>Poder ser nosotros</h3>
+            <p>Sin tantas vueltas, con la tranquilidad de poder hablar y sentirnos escuchados.</p>
+            <i>“Eso vale muchísimo”</i>
+          </article>
+          <article class="memory-card reveal">
+            <span class="card-pin"></span><small>02 · Compañía</small>
+            <h3>Saber que estás</h3>
+            <p>A veces basta una conversación o un mensajito para hacer diferente todo el día.</p>
+            <i>“Incluso desde lejos”</i>
+          </article>
+          <article class="memory-card reveal">
+            <span class="card-pin"></span><small>03 · Alegría</small>
+            <h3>Nuestras risas</h3>
+            <p>Porque los momentos más simples también pueden convertirse en buenos recuerdos.</p>
+            <i>“Que nunca falten”</i>
+          </article>
+          <article class="memory-card reveal">
+            <span class="card-pin"></span><small>04 · Cariño</small>
+            <h3>Tu forma de ser</h3>
+            <p>Esa manera tan tuya de demostrar aprecio y volver cercana una amistad.</p>
+            <i>“Sigue siendo tú”</i>
+          </article>
+        </div>
+      </section>
+
+      <section class="jar-section" aria-labelledby="jarTitle">
+        <div class="jar-copy reveal">
+          <p class="kicker">Un frasquito de palabras bonitas</p>
+          <h2 id="jarTitle">Saca un mensajito</h2>
+          <p>Toca el frasco cada vez que necesites recordar algo bonito.</p>
+        </div>
+        <button class="jar" id="jarButton" type="button" aria-label="Sacar un mensaje del frasco">
+          <span class="jar-lid"></span><span class="jar-glass"></span>
+          <i style="--x:25%;--y:28%;--r:-12deg">✦</i><i style="--x:62%;--y:24%;--r:10deg">♡</i>
+          <i style="--x:36%;--y:56%;--r:7deg">✿</i><i style="--x:68%;--y:64%;--r:-8deg">✦</i>
+          <b>Tócame</b>
+        </button>
+        <div class="jar-message" id="jarMessage" aria-live="polite">Aquí hay algo para ti...</div>
+      </section>
+
+      <section class="hug-section">
+        <div class="hug-flower" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><i></i></div>
+        <p class="kicker">Por si hoy lo necesitabas</p>
+        <h2>Esta página es<br />un abrazo a distancia.</h2>
+        <p>Gracias por ser una persona importante en mi vida.</p>
+      </section>
+    </main>
+
+    <footer><span>Hecho con flores</span><i>✿</i><span>para Jheslyn</span></footer>
+
+    <div class="opening" id="opening" role="dialog" aria-modal="true" aria-labelledby="openingTitle">
+      <div class="opening-halo" aria-hidden="true"></div>
+      <div class="opening-flowers" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+      <p>Preparé algo para mi amiguita</p>
+      <h2 id="openingTitle">Jheslyn</h2>
+      <span class="opening-subtitle">Un pedacito de jardín hecho página</span>
+      <button id="openButton" type="button">Abrir mi detalle <i>→</i></button>
+      <small>Con cariño de amistad · César</small>
+    </div>
+
+    <script src="script.js?v=1"></script>
+  </body>
+</html>
